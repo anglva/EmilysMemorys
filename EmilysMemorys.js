@@ -28,7 +28,7 @@ function type() {
         setTimeout(type, 60);
     }
     else
-        showButton();
+        setTimeout(showButton(), 500);
 }
 
 function showButton(){
